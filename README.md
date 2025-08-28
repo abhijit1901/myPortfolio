@@ -103,6 +103,12 @@ A visually stunning clone of the Spotify web player built using HTML, CSS, and F
 
 ---
 
+## 📄 Resume  
+
+📌 [Download Resume](./public/ABHIJIT_JHA_RESUME_UPDATED.pdf)  
+
+---
+
 ## 🏆 Achievements  
 
 - 📰 **[Published Research Paper](https://www.jisuniversity.ac.in/pdf/publish-paper/p124.pdf)** — *“Multimodal Web Design Automation: Structural Benchmarking and Content Generation with AI”* in JCSIR Journal (Vol. 1, Issue 2, Jan–June 2025).  
