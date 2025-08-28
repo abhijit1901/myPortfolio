@@ -20,7 +20,7 @@ const SkillPage = () => {
         {/* Intro */}
         <FramerWrapper y={0} x={200}>
           <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-           "Currently I am a CSE (AI & ML) undergraduate and aspiring Full Stack Developer with a solid foundation in Java, Python, and JavaScript, along with expertise in modern frameworks like React, Next.js, Node.js, Express.js, and Spring Boot. I specialize in building scalable and responsive web applications, integrating secure authentication, and working with databases such as MongoDB, SQL, and Redis. Alongside full stack development, I actively explore AI & ML tools, data analytics libraries (NumPy, Pandas, Matplotlib, Seaborn), and contribute to open-source projects."
+           Currently I am a CSE (AI & ML) undergraduate and aspiring Full Stack Developer with a solid foundation in Java, Python, and JavaScript, along with expertise in modern frameworks like React, Next.js, Node.js, Express.js, and Spring Boot. I specialize in building scalable and responsive web applications, integrating secure authentication, and working with databases such as MongoDB, SQL, and Redis. Alongside full stack development, I actively explore AI & ML tools, data analytics libraries (NumPy, Pandas, Matplotlib, Seaborn), and contribute to open-source projects.
           </p>
         </FramerWrapper>
 
