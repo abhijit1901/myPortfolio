@@ -13,14 +13,14 @@ Aspiring **Full Stack Developer** | CSE (AI & ML) Undergraduate 🎓
 ![Portfolio Screenshot](./public/demo.png)  
 *(Built with Next.js & Shadcn UI)*  
 
-🔗 **Live Portfolio:** [Visit Here](https://your-portfolio-link.com)  
+🔗 **Live Portfolio:** [Visit Here](https://abhijitjhaportfolio.vercel.app/)  
 
 ---
 
 ## 📬 Connect with Me  
 
 <p align="left">
-  <a href="https://linkedin.com/in/abhijitjha" target="_blank">
+  <a href="https://www.linkedin.com/in/abhijit-jha-95191526b" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://github.com/abhijit1901" target="_blank">
@@ -32,7 +32,7 @@ Aspiring **Full Stack Developer** | CSE (AI & ML) Undergraduate 🎓
   <a href="https://www.geeksforgeeks.org/user/abhijitjrnaw/" target="_blank">
     <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
   </a>
-  <a href="https://instagram.com/yourid" target="_blank">
+  <a href="https://www.instagram.com/abhijitjha__22/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
 </p>  

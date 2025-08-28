@@ -29,7 +29,7 @@ export const portfolioConfig = {
       title: "Abhijit Jha | Full Stack Developer & AI/ML Enthusiast",
       description:
         "Portfolio of Abhijit Jha, showcasing expertise in Full Stack Development, Artificial Intelligence, and Machine Learning with projects, coding profiles, and skills.",
-      url: "https://abhijit-portfolio.vercel.app", //future scope
+      url: "https://abhijitjhaportfolio.vercel.app", //future scope
       type: "website",
       siteName: "Abhijit Jha Portfolio",
     },
@@ -74,7 +74,7 @@ export const portfolioConfig = {
     metadata: {
       robots: "index, follow",
       language: "en",
-      favicon: "https://abhijit-portfolio.vercel.app/favicon.ico", //future scope
+      favicon: "https://abhijitjhaportfolio.vercel.app/favicon.ico", //future scope
       viewport: "width=device-width, initial-scale=1.0",
     },
   },
@@ -312,7 +312,7 @@ export const portfolioConfig = {
         "A visually stunning clone of the Spotify web player, built using HTML, CSS, and Font Awesome for icons. This project aims to replicate the core UI  of Spotify's web  player, allowing users to navigate through a sidebar, view music playlists, and interact with a music player interface.",
       tags: ["HTML", "CSS"],
       link: "https://github.com/abhijit1901/Spotify-clone",
-      preview: "https://abhijit1901.github.io/Spotify-clone/ ",
+      preview: "https://abhijit1901.github.io/Spotify-clone/",
     },
   ],
   // Achievements Information
