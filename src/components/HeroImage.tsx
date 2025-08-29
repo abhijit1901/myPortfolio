@@ -14,7 +14,7 @@ interface HeroImageProps {
 const HeroImage = ({
   src = logo,
   alt = "Portfolio Logo",
-  size = "xl",
+  size = "lg",
   frameStyle = "gradient",
   className = "",
 }: HeroImageProps) => {
