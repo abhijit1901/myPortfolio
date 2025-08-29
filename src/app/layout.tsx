@@ -40,26 +40,43 @@ export const metadata: Metadata = {
   },
 };
 
+import { ThemeProvider } from "@/components/ThemeProvider";
+import ThemeSwitcher from "@/components/ThemeSwitcher";
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${poppins.variable} ${rubik.variable}`}
-        suppressHydrationWarning // Suppress hydration warnings for browser extension attributes
+        suppressHydrationWarning
       >
-        <main
-          className={cn(
-            "flex relative break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[radial-gradient(#2f7df4_1px,transparent_1px)] [background-size:16px_16px]",
-            { "bg-white": "#E6E7EB" }
-          )}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
         >
-          <Navbar />
-          {children}
-        </main>
+          <ThemeSwitcher />
+          <main
+            className={cn(
+              "flex relative break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 max-sm:pt-20",
+              // Light mode: dotted background
+              "bg-[radial-gradient(#2f7df4_1px,transparent_1px)] [background-size:16px_16px]",
+              // Dark mode: enhanced gradient background without dots
+              "dark:bg-none dark:before:absolute dark:before:inset-0 dark:before:z-[-1]",
+              "dark:before:bg-gradient-to-br dark:before:from-slate-900/95 dark:before:via-slate-800/90 dark:before:to-slate-900/95",
+              "dark:after:absolute dark:after:inset-0 dark:after:z-[-1]",
+              "dark:after:bg-[radial-gradient(circle_at_20%_20%,rgba(59,130,246,0.05)_0%,transparent_25%),radial-gradient(circle_at_80%_80%,rgba(15,23,42,0.1)_0%,transparent_30%),radial-gradient(circle_at_50%_50%,rgba(30,41,59,0.08)_0%,transparent_40%)]"
+            )}
+          >
+            <Navbar />
+            {children}
+          </main>
+        </ThemeProvider>
       </body>
     </html>
   );
