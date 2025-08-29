@@ -74,7 +74,7 @@ export const portfolioConfig = {
     metadata: {
       robots: "index, follow",
       language: "en",
-      favicon: "https://abhijitjhaportfolio.vercel.app/favicon.ico", //future scope
+      favicon: "https://abhijitjhaportfolio.vercel.app/panda.jpg", //future scope
       viewport: "width=device-width, initial-scale=1.0",
     },
   },
@@ -248,7 +248,18 @@ export const portfolioConfig = {
         "A MERN-based platform to simplify finding and booking trusted service providers for everyday home services.",
       tags: ["MongoDB", "Express.js", "React", "Node.js"], // 🔄
       link: "https://github.com/abhijit1901/QuickFix_HUB", // 🔄
-      preview: "https://quickfix-hub-1.onrender.com/", // 🔄 placeholder for live demo
+      preview: "https://quickfix-hub-1.onrender.com/",
+      images: [
+        "/quickfixhub/1.png",
+        "/quickfixhub/2.png",
+        "/quickfixhub/3.png",
+        "/quickfixhub/4.png",
+        "/quickfixhub/5.png",
+        "/quickfixhub/6.png",
+        "/quickfixhub/7.png",
+        "/quickfixhub/8.png",
+        "/quickfixhub/9.png",
+      ], // 🔄 placeholder for live demo
     },
     {
       title: "WEB--DEV-PROJECT-WANDERLUST", // 🔄 added
@@ -257,6 +268,14 @@ export const portfolioConfig = {
       tags: ["EJS", "Node.js", "Express.js"], // 🔄
       link: "https://github.com/abhijit1901/WEB--DEV-PROJECT-WANDERLUST", // 🔄
       preview: "https://backend-h6p7.onrender.com/", // 🔄 placeholder for live demo
+      images: [
+        "/wanderlust/1.png",
+        "/wanderlust/2.png",
+        "/wanderlust/3.png",
+        "/wanderlust/4.png",
+        "/wanderlust/5.png",
+        "/wanderlust/6.png",
+      ], 
     },
     {
       title: "Enterprise-Grade Journaling API", // 🔄 new project
@@ -274,6 +293,11 @@ export const portfolioConfig = {
         "Maven",
       ], // 🔄 full tech stack
       link: "https://github.com/abhijit1901/Enterprise-Grade-Journaling-API", // 🔄 update if repo name differs
+      images: [
+        "/journalapi/1.png",
+        "/journalapi/2.png",
+      ]
+
     },
     {
       title: "BLOGOPEDIA", // 🔄 added
@@ -281,6 +305,12 @@ export const portfolioConfig = {
         "A content platform (blogging engine) built using EJS and JavaScript allowing authors to write and manage posts.",
       tags: ["EJS", "MongoDB", "Express.js", "Node.js"],
       link: "https://github.com/abhijit1901/BLOGOPEDIA",
+      images: [
+        "/blogopedia/1.png",
+        "/blogopedia/2.png",
+        "/blogopedia/3.png",
+        "/blogopedia/4.png",
+      ]
     },
     {
       title: "Simon Say Game", // 🔄 added
@@ -289,6 +319,10 @@ export const portfolioConfig = {
       tags: ["JavaScript", "HTML", "CSS"],
       link: "https://github.com/abhijit1901/Simon_say-_game",
       preview: "https://abhijit1901.github.io/Simon_say-_game/",
+      images: [
+        "/simonsays/1.png",
+        "/simonsays/2.png",
+      ], 
     },
     {
       title: "Node MySQL User Manager", // 🔄 added
@@ -296,6 +330,11 @@ export const portfolioConfig = {
         "A backend user management system using Node.js and MySQL, featuring CRUD operations and authentication.",
       tags: ["Node.js", "MySQL", "Backend"],
       link: "https://github.com/abhijit1901/node-mysql-user-manager",
+      images:[
+        "/sqlmanager/1.png",
+        "/sqlmanager/2.png",
+        "/sqlmanager/3.png",
+      ]
     },
     {
       title: "Tic Tac Toe - Classic Game",
@@ -305,6 +344,11 @@ export const portfolioConfig = {
       link: "https://github.com/abhijit1901/Tic-Tac-Toe",
       preview:
         "https://abhijit1901.github.io/tic-tac-toe-using-HTML-CSS-and-JAVASCRIPT/",
+      images: [
+        "/tictactoe/1.png",
+        "/tictactoe/2.png",
+        "/tictactoe/3.png",
+      ], 
     },
     {
       title: "Spotify-inspired Music Player",
@@ -313,6 +357,10 @@ export const portfolioConfig = {
       tags: ["HTML", "CSS"],
       link: "https://github.com/abhijit1901/Spotify-clone",
       preview: "https://abhijit1901.github.io/Spotify-clone/",
+      images: [
+        "/spotify/1.png",
+        "/spotify/2.png",
+      ]
     },
   ],
   // Achievements Information
