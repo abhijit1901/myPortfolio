@@ -56,7 +56,7 @@ const HeroImage = ({
         {currentStyle.backgroundRings && (
           <>
             <div
-              className="absolute rounded-full opacity-20 blur-lg transition-all duration-1000 ease-in-out"
+              className="absolute rounded-full opacity-40 blur-lg transition-all duration-1000 ease-in-out" 
               style={{
                 inset: `-${imageSize * 0.08}px`,
                 background:
@@ -67,7 +67,7 @@ const HeroImage = ({
               }}
             ></div>
             <div
-              className="absolute rounded-full opacity-15 blur-md transition-all duration-1000 ease-in-out"
+              className="absolute rounded-full opacity-30 blur-md transition-all duration-1000 ease-in-out" 
               style={{
                 inset: `-${imageSize * 0.04}px`,
                 background:
@@ -85,7 +85,7 @@ const HeroImage = ({
         >
           {/* Inner border for extra depth */}
           <div
-            className="absolute rounded-full border border-gray-200/30"
+            className="absolute rounded-full border border-gray-200/50" 
             style={{ inset: `${imageSize * 0.02}px` }}
           ></div>
 
@@ -100,12 +100,12 @@ const HeroImage = ({
           />
 
           {/* Overlay gradient for depth */}
-          <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-transparent to-white/5 rounded-full transition-opacity duration-700 group-hover:to-white/10"></div>
+          <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-transparent to-white/20 rounded-full transition-opacity duration-700 group-hover:to-white/30"></div>
         </div>
 
         {/* Smooth floating accent dots - scaled to image size */}
         <div
-          className="absolute bg-blue-400/60 rounded-full transition-all duration-700"
+          className="absolute bg-blue-400/80 rounded-full transition-all duration-700" 
           style={{
             width: imageSize * 0.015,
             height: imageSize * 0.015,
@@ -115,7 +115,7 @@ const HeroImage = ({
           }}
         ></div>
         <div
-          className="absolute bg-purple-400/60 rounded-full transition-all duration-700"
+          className="absolute bg-purple-400/80 rounded-full transition-all duration-700" 
           style={{
             width: imageSize * 0.012,
             height: imageSize * 0.012,
@@ -125,7 +125,7 @@ const HeroImage = ({
           }}
         ></div>
         <div
-          className="absolute bg-pink-400/60 rounded-full transition-all duration-700"
+          className="absolute bg-pink-400/80 rounded-full transition-all duration-700" 
           style={{
             width: imageSize * 0.014,
             height: imageSize * 0.014,
@@ -140,11 +140,11 @@ const HeroImage = ({
         @keyframes gentlePulse {
           0%,
           100% {
-            opacity: 0.2;
+            opacity: 0.6;
             transform: scale(1);
           }
           50% {
-            opacity: 0.3;
+            opacity: 0.45;
             transform: scale(1.02);
           }
         }
@@ -167,6 +167,7 @@ const HeroImage = ({
 };
 
 export default HeroImage;
+
 
 
 // 🎛️ Customization Options:
