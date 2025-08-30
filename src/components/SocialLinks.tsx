@@ -122,11 +122,6 @@ const SocialLinks = () => {
       icon: <GfgIcon />, // 🔄 custom SVG
     },
     {
-      name: "Code360",
-      link: portfolioConfig.socialLinks.code360,
-      icon: <Code360Icon />, // 🔄 custom SVG
-    },
-    {
       name: "Instagram",
       link: portfolioConfig.socialLinks.instagram,
       icon: <InstagramIcon />,
