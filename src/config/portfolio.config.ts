@@ -14,8 +14,6 @@ export const portfolioConfig = {
     github: "https://github.com/abhijit1901",
     leetcode: "https://leetcode.com/u/Abhijit_Jha2003/",
     gfg: "https://www.geeksforgeeks.org/user/abhijitjrnaw/",
-    code360:
-      "https://www.naukri.com/code360/profile/3a950343-09ea-44fa-9c90-995a3bd592a2",
     instagram: "https://www.instagram.com/abhijitjha__22/", // 🔄 added
   },
 
@@ -275,7 +273,7 @@ export const portfolioConfig = {
         "/wanderlust/4.png",
         "/wanderlust/5.png",
         "/wanderlust/6.png",
-      ], 
+      ],
     },
     {
       title: "Enterprise-Grade Journaling API", // 🔄 new project
@@ -293,11 +291,7 @@ export const portfolioConfig = {
         "Maven",
       ], // 🔄 full tech stack
       link: "https://github.com/abhijit1901/Enterprise-Grade-Journaling-API", // 🔄 update if repo name differs
-      images: [
-        "/journalapi/1.png",
-        "/journalapi/2.png",
-      ]
-
+      images: ["/journalapi/1.png", "/journalapi/2.png"],
     },
     {
       title: "BLOGOPEDIA", // 🔄 added
@@ -310,7 +304,7 @@ export const portfolioConfig = {
         "/blogopedia/2.png",
         "/blogopedia/3.png",
         "/blogopedia/4.png",
-      ]
+      ],
     },
     {
       title: "Simon Say Game", // 🔄 added
@@ -319,10 +313,7 @@ export const portfolioConfig = {
       tags: ["JavaScript", "HTML", "CSS"],
       link: "https://github.com/abhijit1901/Simon_say-_game",
       preview: "https://abhijit1901.github.io/Simon_say-_game/",
-      images: [
-        "/simonsays/1.png",
-        "/simonsays/2.png",
-      ], 
+      images: ["/simonsays/1.png", "/simonsays/2.png"],
     },
     {
       title: "Node MySQL User Manager", // 🔄 added
@@ -330,11 +321,7 @@ export const portfolioConfig = {
         "A backend user management system using Node.js and MySQL, featuring CRUD operations and authentication.",
       tags: ["Node.js", "MySQL", "Backend"],
       link: "https://github.com/abhijit1901/node-mysql-user-manager",
-      images:[
-        "/sqlmanager/1.png",
-        "/sqlmanager/2.png",
-        "/sqlmanager/3.png",
-      ]
+      images: ["/sqlmanager/1.png", "/sqlmanager/2.png", "/sqlmanager/3.png"],
     },
     {
       title: "Tic Tac Toe - Classic Game",
@@ -344,11 +331,7 @@ export const portfolioConfig = {
       link: "https://github.com/abhijit1901/Tic-Tac-Toe",
       preview:
         "https://abhijit1901.github.io/tic-tac-toe-using-HTML-CSS-and-JAVASCRIPT/",
-      images: [
-        "/tictactoe/1.png",
-        "/tictactoe/2.png",
-        "/tictactoe/3.png",
-      ], 
+      images: ["/tictactoe/1.png", "/tictactoe/2.png", "/tictactoe/3.png"],
     },
     {
       title: "Spotify-inspired Music Player",
@@ -357,10 +340,7 @@ export const portfolioConfig = {
       tags: ["HTML", "CSS"],
       link: "https://github.com/abhijit1901/Spotify-clone",
       preview: "https://abhijit1901.github.io/Spotify-clone/",
-      images: [
-        "/spotify/1.png",
-        "/spotify/2.png",
-      ]
+      images: ["/spotify/1.png", "/spotify/2.png"],
     },
   ],
   // Achievements Information
@@ -370,30 +350,45 @@ export const portfolioConfig = {
       description:
         "Authored and published 'Multimodal Web Design Automation: Structural Benchmarking and Content Generation with AI' in JCSIR Journal (Vol. 1, Issue 2, Jan–June 2025).",
       link: "https://www.jisuniversity.ac.in/pdf/publish-paper/p124.pdf",
+      images: [
+        "/achievements/researchpaper/1.png",
+        "/achievements/researchpaper/2.png",
+        "/achievements/researchpaper/3.png",
+        "/achievements/researchpaper/4.png",
+        "/achievements/researchpaper/5.png",
+      ],
     },
     {
       title: "Best Paper Award",
       description:
         "Received Best Paper Award for 'Multimodal Web Design Automation with AI' at RAICCIT 2025,in JCSIR Journal (Vol. 1, Issue 2, Jan–June 2025).",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7343717650088267778/",
+      images: [
+        "/achievements/award/1.png",
+      ],
     },
     {
       title: "LeetCode Problem Solving",
       description: "Solved 200+ DSA problems on LeetCode.",
       link: "https://leetcode.com/u/Abhijit_Jha2003/",
       icon: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
+      images: [
+        "/achievements/leetcode/1.png",
+        "/achievements/leetcode/2.png",
+        "/achievements/leetcode/3.png",
+      ],
     },
     {
       title: "GeeksforGeeks Problem Solving",
       description: "Solved 100+ problems on GeeksforGeeks.",
       link: "https://www.geeksforgeeks.org/user/abhijitjrnaw/",
       icon: "https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg",
-    },
-    {
-      title: "Code360 Problem Solving",
-      description: "Solved 30+ problems on Code360 (Coding Ninjas).",
-      link: "https://www.naukri.com/code360/profile/3a950343-09ea-44fa-9c90-995a3bd592a2",
-      icon: "https://ninjasfiles.s3.amazonaws.com/0000000000001394.png",
+      images: [
+        "/achievements/geekforgeeks/1.png",
+        "/achievements/geekforgeeks/2.png",
+        "/achievements/geekforgeeks/3.png",
+        "/achievements/geekforgeeks/4.png",
+      ],
     },
   ],
 
