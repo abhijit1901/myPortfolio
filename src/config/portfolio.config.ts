@@ -155,7 +155,37 @@ export const portfolioConfig = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
       },
     ],
-
+    // AI, Machine Learning & Data Science
+    machineLearning: [
+  {
+    name: "Scikit-learn",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg",
+  },
+  {
+    name: "NLTK",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", // Using Python icon as NLTK alternative
+  },
+  {
+    name: "Gensim",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", // Using Python icon as Gensim alternative
+  },
+  {
+    name: "NumPy",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
+  },
+  {
+    name: "Pandas",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
+  },
+  {
+    name: "Matplotlib",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg",
+  },
+  {
+    name: "Seaborn",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", // Using Python icon as Seaborn alternative
+  },
+],
     // Databases & Caching
     databases: [
       {
@@ -171,27 +201,6 @@ export const portfolioConfig = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
       },
     ],
-
-    // Data Analytics
-    dataAnalytics: [
-      {
-        name: "NumPy",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
-      },
-      {
-        name: "Pandas",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
-      },
-      {
-        name: "Matplotlib",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg",
-      },
-      {
-        name: "Seaborn",
-        icon: "https://seaborn.pydata.org/_images/logo-tall-lightbg.svg",
-      },
-    ],
-
     // Tools & Protocols
     tools: [
       {
@@ -209,6 +218,10 @@ export const portfolioConfig = {
       {
         name: "Maven",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg",
+      },
+      {
+        name: "Jupyter",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
       },
       {
         name: "VS Code",
@@ -258,6 +271,20 @@ export const portfolioConfig = {
         "/quickfixhub/8.png",
         "/quickfixhub/9.png",
       ], // 🔄 placeholder for live demo
+    },
+    {
+      "title": "Kindle Review Sentiment Analysis",
+      "description": "An end-to-end NLP project that classifies Amazon Kindle reviews as positive or negative. It compares three feature extraction methods: Bag-of-Words (BOW), TF-IDF, and averaged Word2Vec embeddings to determine the most effective model.",
+      "tags": ["Python", "Scikit-learn", "Pandas", "NLTK", "Gensim", "Sentiment Analysis"],
+      "link": "https://github.com/abhijit1901/NLP_3---Kindle-Review-Sentiment-Analysis",
+      "images": ["/kindle-sentiment/1.png", "/kindle-sentiment/2.png","/kindle-sentiment/3.png"]
+    },
+    {
+      "title": "SMS Spam Classifier Project",
+      "description": "A project to build and evaluate a machine learning model to classify SMS messages as spam or ham. This repository explores three different text vectorization techniques: Bag-of-Words, TF-IDF, and Word2Vec.",
+      "tags": ["Python", "NLP", "Machine Learning", "Scikit-learn", "NLTK"],
+      "link": "https://github.com/abhijit1901/NLP_2---NLP-Spam-Classifier-Project",
+      "images": ["/spam-classifier/1.png", "/spam-classifier/2.png"]
     },
     {
       title: "WEB--DEV-PROJECT-WANDERLUST", // 🔄 added

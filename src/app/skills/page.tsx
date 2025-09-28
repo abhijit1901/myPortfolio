@@ -57,7 +57,15 @@ const SkillPage = () => {
             <SkillsFooter items={portfolioConfig.skills.frameworks} />
           </div>
         </FramerWrapper>
-
+        {/* Machine Learning & Data Science */}
+        <FramerWrapper className="block w-full" y={100} delay={0.36}>
+          <h1 className="text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
+            Machine Learning & Data Science
+          </h1>
+          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
+            <SkillsFooter items={portfolioConfig.skills.machineLearning} />
+          </div>
+        </FramerWrapper>
         {/* Databases */}
         <FramerWrapper className="block w-full" y={100} delay={0.34}>
           <h1 className="text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
@@ -67,17 +75,6 @@ const SkillPage = () => {
             <SkillsFooter items={portfolioConfig.skills.databases} />
           </div>
         </FramerWrapper>
-
-        {/* Data Analytics */}
-        <FramerWrapper className="block w-full" y={100} delay={0.36}>
-          <h1 className="text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Data Analytics
-          </h1>
-          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
-            <SkillsFooter items={portfolioConfig.skills.dataAnalytics} />
-          </div>
-        </FramerWrapper>
-
         {/* Tools & Technologies */}
         <FramerWrapper className="block w-full" y={100} delay={0.38}>
           <h1 className="text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
