@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Abhijit Jha  
-
+----
 Aspiring **Full Stack Developer** | CSE (AI & ML) Undergraduate 🎓  
 
 🚀 Passionate about building modern web apps with **Next.js, React, Tailwind, Shadcn UI, Node.js, and Spring Boot**.  
